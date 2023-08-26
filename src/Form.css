@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-color:rgb(237, 235, 235);
+    
+    
+   
+  }
+
+   .body_form{
+width: 100%;
+height: 100vh;
+/* background-color:white ; */
+display: flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+   }
+
+
+   .heading>h1{
+         font-family: poppins,sans-serif;
+         font-weight: 200;
+         font-size: 2rem;
+         color: #1e9161;
+         
+   }
+
+.form_class{
+   display: flex;
+   flex-direction: column;
+   justify-content : flex-start;
+   align-items: flex-start;
+
+}
+
+
+.class_name{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   max-width: 500px;
+   /* border: 1px solid red; */
+}
+
+.formLabel{
+   font-family: "poppins", sans-serif;
+   font-size: 1.5rem;
+   color:rgb(60, 66, 63);
+   
+}
+
+.inputField{
+   width: 400px;
+   height: 50px;
+   border: 2px solid rgb(60, 66, 63);
+   border-radius: 5px;
+
+   outline: none;
+   font-family: "poppins",sans-serif;
+   font-size: 1rem;
+   padding: 10px ;
+
+}
+
+.submitBtn{
+   width: 400px;
+   height:50px;
+   font-size:1.5rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+   color: #1e9161;
+  
+  
+}
+.submitBtn:hover{
+
+   color: white;
+   background-color:#1e9161;
+
+  
+}
+
+
+
+@media screen and (max-width:486px) {
+
+      
+   .class_name{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      max-width: 300px;
+      /* border: 1px solid red; */
+   }
+   .formLabel{
+      font-family: "poppins", sans-serif;
+      font-size: 1.2rem;
+      color:rgb(60, 66, 63);
+      max-width: 350px;
+   }
+   .form_class{
+     margin:0px 30px;
+     max-width:350px;
+   }
+   
+   
+}
